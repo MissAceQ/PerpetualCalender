@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.container {
+    display: inline-block;
+    height: 394px;
+    margin: 50px;
+    /*border: 1px solid #aaa;*/
+    background-color: #f3f5fa;
+    font-family: 微软雅黑;
+}
+
+table td {
+    width: 71.4px;
+    height: 25px;
+}
+
+#select-ym {
+    margin: 10px;
+}
+
+#gz {
+    font-size: 12px;
+    color: #aaa;
+}
+
+#history {
+    font-size: 12px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+#localtime {
+    float: right;
+    font-size: 12px;
+    line-height: 25px;
+}
+#calender {
+    position: relative;
+    height: 350px;
+}
+
+#detail {
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
+    border:1px solid #a6a8ab;
+    background-color: #FBF2F2;
+}
+
+.tr1 {
+    font-family: Arial;
+    font-size: 18px;
+    border-bottom: none;
+}
+.tr2 {
+    font-size: 12px;
+    border-top: none;
+    color: #aaa;
+}
+
+#calenderhead {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    height: 50px;
+    width: 500px;
+    background-color: #fefbeb;
+}
+#week {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+}
+
+.td1 {
+    border-bottom: none;
+    text-align: center;
+}
+.td2 {
+    border-top: none;
+    text-align: center;
+}
+.aorange {
+    color: #ff5f07;
+}
+
+#author {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #aaa;
+}
